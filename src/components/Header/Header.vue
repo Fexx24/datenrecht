@@ -13,7 +13,7 @@
       <ul class="nav-menu" :class="{ active: mobileMenuOpen }">
         <li>
           <a href="#home" class="home" aria-current="page">
-            Home1
+            Home
           </a>
         </li>
         <li>
