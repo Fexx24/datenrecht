@@ -1,36 +1,53 @@
 <script setup>
-
+import { ref } from 'vue'
+import { useRoute } from 'vue-router'
+const route = useRoute()
+const mobileMenuOpen = ref(false)
+function toggleMenu(){ mobileMenuOpen.value = !mobileMenuOpen.value }
+function closeMenu(){ mobileMenuOpen.value = false }
+const logo = new URL('@/assets/images/logo-credocheck.png', import.meta.url).href
 </script>
 
 <template>
   <header role="banner">
     <nav role="navigation" aria-label="Hauptnavigation">
       <div class="logo">
-        <div class="logo-icon">⚡</div>
-        <span>FlowTask</span>
+        <img :src="logo" alt="CredoCheck" class="logo-img" />
+        <span>CredoCheck</span>
       </div>
 
-      <ul class="nav-menu" :class="{ active: mobileMenuOpen }">
+      <button
+        class="menu-toggle"
+        @click="toggleMenu"
+        :aria-expanded="mobileMenuOpen"
+        aria-controls="primary-navigation"
+        aria-label="Navigation umschalten"
+      >
+        <span class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </button>
+
+      <ul id="primary-navigation" class="nav-menu" :class="{ active: mobileMenuOpen }">
         <li>
-          <a href="#home" class="home" aria-current="page">
-            Home
-          </a>
+          <router-link to="/" :class="[{ 'router-link-exact-active': route.path === '/' }, 'home']" @click="closeMenu">Home</router-link>
         </li>
         <li>
-          <a href="#about" class="about" aria-current="page">
-            Über uns
-          </a>
+          <router-link to="/about" :class="[{ 'router-link-exact-active': route.path.startsWith('/about') }, 'about']" @click="closeMenu">Über uns</router-link>
         </li>
         <li>
-          <a href="#contact" class="contact" aria-current="page">
-            Kontakt
-          </a>
+          <router-link to="/pricing" :class="[{ 'router-link-exact-active': route.path.startsWith('/pricing') }, 'pricing']" @click="closeMenu">Preise</router-link>
+        </li>
+        <li>
+          <router-link to="/contact" :class="[{ 'router-link-exact-active': route.path.startsWith('/contact') }, 'contact']" @click="closeMenu">Kontakt</router-link>
         </li>
       </ul>
     </nav>
   </header>
 </template>
 
-<style scoped>
-
+<style scoped lang="scss">
+@import "./Header.scss";
 </style>

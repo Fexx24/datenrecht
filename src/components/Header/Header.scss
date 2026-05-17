@@ -1,1 +1,31 @@
 @use "../../assets/styles/main";
+
+header{background:var(--neutral-light,#F5F5F5);box-shadow:var(--shadow-sm);position:sticky;top:0;z-index:50}
+nav{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:calc(var(--spacing-sm,1rem))}
+.logo{display:flex;align-items:center;gap:0.5rem;font-weight:700;color:var(--primary);font-family:var(--font-sans,Inter),system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif}
+.logo-img{width:40px;height:40px;object-fit:contain;border-radius:6px;display:block}
+.logo-text{font-size:0.95rem;letter-spacing:0.02em}
+.logo-text{font-size:0.95rem;letter-spacing:0.02em}
+.nav-menu{list-style:none;display:flex;gap:1rem;align-items:center;margin:0;padding:0}
+.nav-menu li a{display:inline-block;padding:0.5rem 0.75rem;border-radius:8px;color:var(--neutral-dark,#1A1A1A);text-decoration:none;font-weight:600}
+.nav-menu li a:hover,.nav-menu li a:focus{background:rgba(104,184,48,0.08);outline:none}
+.nav-menu .router-link-exact-active{background:rgba(26,74,137,0.16)}
+.nav-menu li a:focus-visible{outline:3px solid var(--primary);outline-offset:2px}
+
+.menu-toggle{display:none;background:transparent;border:none;padding:0.5rem;border-radius:8px;cursor:pointer}
+.menu-toggle:focus{outline:3px solid var(--primary);outline-offset:2px}
+.hamburger{display:inline-block;width:24px;height:18px;position:relative}
+.hamburger span{position:absolute;left:0;right:0;height:2px;background:var(--neutral-dark);border-radius:2px;transition:transform 0.2s,opacity 0.2s}
+.hamburger span:nth-child(1){top:0}
+.hamburger span:nth-child(2){top:8px}
+.hamburger span:nth-child(3){top:16px}
+
+/* Responsive: collapse to vertical on small screens (burger from <620px) */
+@media (max-width: 619px){
+  nav{padding:calc(var(--spacing-xs,0.5rem)) calc(var(--spacing-sm,1rem))}
+  .menu-toggle{display:inline-flex}
+  .nav-menu{display:none;flex-direction:column;position:absolute;right:1rem;top:64px;background:var(--surface,#fff);padding:var(--spacing-sm,1rem);box-shadow:var(--shadow-md);border-radius:8px}
+  .nav-menu.active{display:flex}
+  .logo-icon{width:36px;height:36px}
+  .nav-menu li a{white-space:nowrap}
+}
