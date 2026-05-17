@@ -233,7 +233,7 @@ const logo = new URL('@/assets/images/logo-credocheck.png', import.meta.url).hre
         Weitere Informationen zu unseren Richtlinien finden Sie in unserer
         <router-link to="/privacy">Datenschutzerklärung</router-link>,
         <router-link to="/license">Lizenzbedingungen</router-link> und
-        <router-link to="/imprint">Impressum</router-link>.
+        <router-link to="/impressum">Impressum</router-link>.
       </p>
     </section>
 
@@ -380,15 +380,6 @@ const logo = new URL('@/assets/images/logo-credocheck.png', import.meta.url).hre
   margin: 0;
 }
 
-.brand-number {
-  background: var(--primary);
-  color: #fff;
-  padding: 4px 12px;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  font-weight: 600;
-}
-
 .brand-display {
   background: #fff;
   border-radius: var(--radius-sm);
@@ -462,12 +453,6 @@ const logo = new URL('@/assets/images/logo-credocheck.png', import.meta.url).hre
   opacity: 0.9;
 }
 
-.color-hex-hover {
-  font-size: 0.85rem;
-  opacity: 0.8;
-  margin-top: 4px;
-}
-
 /* Brand Details */
 .brand-details {
   background: #fff;
@@ -510,27 +495,10 @@ const logo = new URL('@/assets/images/logo-credocheck.png', import.meta.url).hre
 }
 
 /* Trademark Protection */
-.trademark-protection {
-  background: #fff !important;
-}
 
 .protection-content h3 {
   color: var(--secondary, #68b830);
   margin-top: 0;
-}
-
-.protection-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: var(--spacing-lg);
-  margin-top: var(--spacing-lg);
-}
-
-.protection-item {
-  background: #f5f5f5;
-  padding: var(--spacing-md);
-  border-radius: var(--radius-sm);
-  border-left: 4px solid var(--primary, #1a4a89);
 }
 
 .protection-item h4 {
@@ -645,10 +613,6 @@ const logo = new URL('@/assets/images/logo-credocheck.png', import.meta.url).hre
   .brand-header {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .brand-number {
-    margin-top: var(--spacing-sm);
   }
 
   .word-mark {

@@ -154,13 +154,13 @@
 
       <p>Ihre Daten können an folgende Empfänger weitergegeben werden:</p>
 
-      <h3>10.1 Intern</h3>
+      <h3>8.1 Intern</h3>
       <ul>
         <li>CredoCheck-Team (Geschäftsführung, Support, Entwicklung, Buchhaltung)</li>
         <li>Berechtigter Personenkreis je nach Funktion </li>
       </ul>
 
-      <h3>10.2 Externe Dienstleister</h3>
+      <h3>8.2 Externe Dienstleister</h3>
       <p>Mit allen Auftragsverarbeitern werden Verträge nach Artikel 28 DSGVO abgeschlossen:</p>
       <ul>
         <li><strong>Hosting-Provider:</strong> Serverbetrieb und Speicherung </li>
@@ -170,7 +170,7 @@
         <li><strong>CRM-Systeme:</strong> Kundenverwaltung </li>
       </ul>
 
-      <h3>10.3 Weitergaben in Drittländer</h3>
+      <h3>8.3 Weitergaben in Drittländer</h3>
       <p>
         Falls Daten in Länder außerhalb der EU/des EWR übermittelt werden, nutzen wir sogenannte
         Standardvertragsklauseln zur Übermittlung von personenbezogenen Daten in Drittländer
@@ -200,29 +200,29 @@
     <section>
       <h2>10. Ihre Rechte als betroffene Person</h2>
 
-      <h3>12.1 Auskunftsrecht (Art. 15 DSGVO)</h3>
+      <h3>10.1 Auskunftsrecht (Art. 15 DSGVO)</h3>
       <p>Sie können erfahren, welche Daten wir speichern und wofür sie genutzt werden.</p>
 
-      <h3>12.2 Recht auf Berichtigung (Art. 16 DSGVO)</h3>
+      <h3>10.2 Recht auf Berichtigung (Art. 16 DSGVO)</h3>
       <p>Sie können unrichtige oder unvollständige Daten korrigieren lassen.</p>
 
-      <h3>12.3 Recht auf Löschung (Art. 17 DSGVO)</h3>
+      <h3>10.3 Recht auf Löschung (Art. 17 DSGVO)</h3>
       <p>Sie können die Löschung verlangen, wenn die Daten nicht mehr notwendig sind oder gesetzliche Aufbewahrungsfristen abgelaufen sind.</p>
 
-      <h3>12.4 Recht auf Einschränkung (Art. 18 DSGVO)</h3>
+      <h3>10.4 Recht auf Einschränkung (Art. 18 DSGVO)</h3>
       <p>Sie können verlangen, dass Ihre Daten nur eingeschränkt verarbeitet werden.</p>
 
-      <h3>12.5 Recht auf Datenportabilität (Art. 20 DSGVO)</h3>
+      <h3>10.5 Recht auf Datenportabilität (Art. 20 DSGVO)</h3>
       <p>Sie können Ihre Daten in strukturiertem Format (z.B. CSV, JSON) erhalten und zu einem anderen Anbieter wechseln.</p>
 
-      <h3>12.6 Widerspruchsrecht (Art. 21 DSGVO)</h3>
+      <h3>10.6 Widerspruchsrecht (Art. 21 DSGVO)</h3>
       <p>Sie können widersprechen, falls Datenverarbeitung auf „berechtigtem Interesse" basiert:</p>
       <ul>
         <li><strong>Marketing:</strong> Newsletter-Widerruf durch Abmelde-Link</li>
         <li><strong>Profiling:</strong> Automatisierte Entscheidungsfindung</li>
       </ul>
 
-      <h3>12.7 Widerruf der Einwilligung (Art. 7 DSGVO)</h3>
+      <h3>10.7 Widerruf der Einwilligung (Art. 7 DSGVO)</h3>
       <p>Falls Einwilligung Basis der Verarbeitung ist, können Sie diese jederzeit widerrufen.</p>
 
       <h3>Kontakt für Anfragen</h3>
@@ -232,21 +232,21 @@
       <div class="info-box legal-notice">
         <p><strong>Beschwerde bei Datenschutzbehörde:</strong> Sie können eine Beschwerde bei der österreichischen Datenschutzbehörde einreichen:</p>
         <p><a href="https://www.dsb.gv.at" target="_blank">Österreichische Datenschutzbehörde </a>
-          <a href="https://www.dsb.gv.at/beschwerde" target="_blank">Online-Beschwerde-Formular</a></p>
+          <a href="https://dsb.gv.at/eingabe-an-die-dsb/beschwerde" target="_blank">Online-Beschwerde-Formular</a></p>
       </div>
     </section>
 
     <section>
       <h2>11. Datenschutzverletzungen und Benachrichtigungspflicht</h2>
 
-      <h3>13.1 Unsere Verantwortung</h3>
+      <h3>11.1 Unsere Verantwortung</h3>
       <p>Falls eine Sicherheitsverletzung Ihre Daten betrifft:</p>
       <ul>
         <li>Wir benachrichtigen die Datenschutzbehörde <strong>unverzüglich, spätestens 72 Stunden</strong></li>
         <li>Wir informieren Sie per E-Mail oder Post, wenn ein hohes Risiko besteht</li>
       </ul>
 
-      <h3>13.2 Ihre Handlungsmöglichkeiten</h3>
+      <h3>11.2 Ihre Handlungsmöglichkeiten</h3>
       <ul>
         <li>Benachrichtigen Sie uns sofort: <a href="mailto:hello@credocheck.example">hello@credocheck.example</a></li>
         <li>Ändern Sie Ihre Passwörter</li>
@@ -258,7 +258,7 @@
     <section>
       <h2>12. Datensicherheit</h2>
 
-      <h3>14.1 Technische Maßnahmen</h3>
+      <h3>12.1 Technische Maßnahmen</h3>
       <ul>
         <li><strong>Verschlüsselung:</strong> HTTPS/TLS für alle Übertragungen</li>
         <li><strong>Zugriffskontrolle:</strong> Rollen- und Berechtigungsmanagement</li>
@@ -267,7 +267,7 @@
         <li><strong>Penetrationstests:</strong> Regelmäßige Sicherheitsaudits</li>
       </ul>
 
-      <h3>14.2 Organisatorische Maßnahmen</h3>
+      <h3>12.2 Organisatorische Maßnahmen</h3>
       <ul>
         <li>Datenschutzbewusstsein-Schulung aller Mitarbeiter</li>
         <li>Zugriffsrestriktionen (nur autorisierte Mitarbeiter)</li>
@@ -296,7 +296,7 @@
     <section>
       <h2>14. Verifikationsspezifische Hinweise</h2>
 
-      <h3>17.1 Verifikation sensibler Daten</h3>
+      <h3>14.1 Verifikation sensibler Daten</h3>
       <p>Da CredoCheck Verifikationsdienste erbringt, können hochgeladene Dateien <strong>sensible personenbezogene Daten</strong> enthalten:</p>
       <ul>
         <li>Ausweisdokumente, Pässe</li>
@@ -305,7 +305,7 @@
         <li>Weitere Identifizierungsinformationen</li>
       </ul>
 
-      <h3>17.2 Ihre Verantwortung als Datenverantwortlicher</h3>
+      <h3>14.2 Ihre Verantwortung als Datenverantwortlicher</h3>
       <p>Falls Sie als Unternehmen CredoCheck nutzen und Daten von Dritten hochladen, sind <strong>Sie der Datenverantwortliche</strong> und müssen:</p>
       <ul>
         <li>Erforderliche Rechtsgrundlagen haben</li>
@@ -345,7 +345,7 @@
 
 .privacy-page h2 {
   font-size: 1.5rem;
-  border-bottom: 1px solid var(--neutral-medium, #e0e0e0);
+  border-bottom: 1px solid var(#e0e0e0);
   padding-bottom: var(--spacing-xs, 4px);
   margin-top: var(--spacing-md);
 }

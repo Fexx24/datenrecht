@@ -34,7 +34,7 @@
       <p>Berufsrechtliche Regelungen inkl. Zugang: Gewerbeordnung, abrufbar unter www.ris.bka.gv.at</p>
       <p><strong>Mediation:</strong>
         Für außergerichtliche Streitbeilegung können Sie
-        <a href="https://www.oesterreich.gv.at/" target="_blank">österreichische Schlichtungsstellen</a> in Anspruch nehmen.
+        <a href="https://www.oesterreich.gv.at/de/themen/gesetze_und_recht/gerichtsorganisation_der_justiz/zivilrecht/1/1/Seite.1010142" target="_blank">österreichische Schlichtungsstellen</a> in Anspruch nehmen.
       </p>
     </section>
 
@@ -87,7 +87,7 @@
 
       <p>
         Für Informationen über die Verarbeitung Ihrer personenbezogenen Daten beachten Sie unsere
-        <strong><a href="/privacy">Datenschutzerklärung</a></strong>.
+        <strong>Datenschutzerklärung</strong>.
       </p>
 
       <p>
@@ -124,7 +124,7 @@
 
       <p>
         Diese Website nutzt Cookies und ähnliche Technologien. Für detaillierte Informationen beachten Sie unsere
-        <strong><a href="datenrecht/privacy#cookies">Datenschutzerklärung (Punkt 7: Cookies)</a></strong>.
+        <strong>Datenschutzerklärung (Punkt 7: Cookies)</strong>.
       </p>
 
       <p>
@@ -183,7 +183,7 @@
 
 .imprint-page h2 {
   font-size: 1.5rem;
-  border-bottom: 1px solid var(--neutral-medium, #e0e0e0);
+  border-bottom: 1px solid var(#e0e0e0);
   padding-bottom: var(--spacing-xs, 4px);
   margin-top: var(--spacing-md);
 }
