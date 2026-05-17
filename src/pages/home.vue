@@ -335,22 +335,6 @@ const processSteps = [
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Animations */
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 0.3; }
-  50% { opacity: 0.6; }
-}
-
-@keyframes draw {
-  0% { stroke-dasharray: 200; stroke-dashoffset: 200; }
-  100% { stroke-dasharray: 200; stroke-dashoffset: 0; }
-}
-
 /* Features Section */
 .features-section {
   padding: var(--spacing-xl) var(--spacing-lg);
