@@ -241,7 +241,7 @@
 
 .license-page h2 {
   font-size: 1.5rem;
-  border-bottom: 1px solid var(--neutral-medium, #e0e0e0);
+  border-bottom: 1px solid #e0e0e0;
   padding-bottom: var(--spacing-xs, 4px);
   margin-top: var(--spacing-md);
 }
