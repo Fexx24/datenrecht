@@ -5,13 +5,8 @@
     <p class="updated">Stand Mai 2026</p>
 
     <section id="conformance">
-      <h2>Grundsatz und Ziel</h2>
-      <p>CredoCheck verpflichtet sich, die Zugänglichkeit seiner Website zu verbessern und Barrieren zu reduzieren. Ziel ist die weitestmögliche Einhaltung der Web Content Accessibility Guidelines (WCAG) 2.2 auf Level AA.</p>
-    </section>
-
-    <section id="scope">
-      <h2>Geltungsbereich</h2>
-      <p>Diese Erklärung bezieht sich auf Inhalte unter der Domain dieser Website. Drittinhalte und eingebettete Inhalte (z. B. externe Medienplayer, eingebettete Dokumente) unterliegen deren eigener Zugänglichkeitsverantwortung.</p>
+      <h2>Ziel und Geltungsbereich</h2>
+      <p>CredoCheck verpflichtet sich, die Zugänglichkeit seiner Website zu verbessern und Barrieren zu reduzieren. Ziel ist die bestmögliche Einhaltung der Web Content Accessibility Guidelines (WCAG) 2.2 auf Level AA. Diese Erklärung bezieht sich auf Inhalte unter der Domain dieser Website.</p>
     </section>
 
     <section id="measures">
@@ -22,12 +17,13 @@
         <li>Vollständige Tastatursteuerung und sichtbare Fokusindikatoren</li>
         <li>Alternative Texte für Bilder und Beschriftungen für Formulare</li>
         <li>Responsive Layouts für verschiedene Bildschirmgrößen</li>
+        <li>Überprüfung mittels Google Lighthouse</li>
       </ul>
     </section>
 
     <section id="conformance">
       <h2>Streben nach Barrierefreiheit ist eine fortlaufende Aufgabe</h2>
-      <p>Websites können nie zu 100 % barrierefrei sein. So kann eine Website für Menschen mit Beeinträchtigungen Barrieren haben, obwohl sie nach WCAG AA als barrierefrei gilt. Wir betrachten die Barrierefreiheit von CredoCheck daher als kontinuierliche Aufgabe für unsere Entwickler. Dies erreichen wir durch regelmäßige Schulungen, Weiterbildungen und ggf. technische Nachbesserungen. Uns ist wichtig, dass Barrierefreiheit aus der Perspektive der Betroffenen angestrebt wird. Verbesserungsvorschläge nehmen wir ernst und immer gern entgegen. Stoßen Sie auf der Seite auf Barrieren, welche Sie bei der Benutzung behindern oder einschränken, oder haben Sie Fragen zur Barrierefreiheit der Seite, kontaktieren Sie uns bitte hier.
+      <p>Websites können nie zu 100 % barrierefrei sein. So kann eine Website für Menschen mit Beeinträchtigungen Barrieren haben, obwohl sie nach WCAG 2.2 AA als barrierefrei gilt. Wir betrachten die Barrierefreiheit von CredoCheck daher als kontinuierliche Aufgabe für unsere Entwickler. Dies erreichen wir durch regelmäßige Schulungen, Weiterbildungen und ggf. technische Nachbesserungen. Uns ist wichtig, dass Barrierefreiheit aus der Perspektive der Betroffenen angestrebt wird. Verbesserungsvorschläge nehmen wir ernst und immer gern entgegen. Stoßen Sie auf der Seite auf Barrieren, welche Sie bei der Benutzung behindern oder einschränken, oder haben Sie Fragen zur Barrierefreiheit der Seite, kontaktieren Sie uns bitte hier.
       </p>
     </section>
 

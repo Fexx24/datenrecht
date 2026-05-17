@@ -4,12 +4,12 @@
 
     <section class="info-box legal-notice">
       <p><strong>Stand: Mai 2026</strong></p>
-      <p>Diese Datenschutzerklärung informiert Sie über die Erhebung, Verarbeitung und Nutzung personenbezogener Daten im Zusammenhang mit der Nutzung unserer Website und unserer Verifikationsdienstleistungen. CredoCheck nimmt den Schutz Ihrer Daten sehr ernst.</p>
+      <p>Diese Datenschutzerklärung informiert Sie über die Erhebung, Verarbeitung und Nutzung personenbezogener Daten im Zusammenhang mit der Nutzung unserer Website und unserer Verifikationsdienstleistungen.</p>
     </section>
 
     <section>
       <h2>1. Verantwortliche Stelle und Kontakt</h2>
-      <p><strong>Verantwortlicher im Sinne der DSGVO:</strong></p>
+      <p><strong>Verantwortliche im Sinne der DSGVO:</strong></p>
       <ul>
         <li>CredoCheck</li>
         <li>Musterstraße 10, 1180 Wien</li>
@@ -30,11 +30,7 @@
         <li>Die Nutzung unserer Verifikations- und Prüfdienstleistungen</li>
         <li>Kontaktaufnahmen und Kundenbeziehungen</li>
       </ul>
-      <p><strong>Rechtliche Grundlagen:</strong> Die Verarbeitung erfolgt nach Maßgabe der:</p>
-      <ul>
-        <li><strong>Datenschutz-Grundverordnung</strong> EU-Verordnung 2016/679</li>
-        <li><strong>Österreichischen Datenschutzgesetz</strong> 2018</li>
-      </ul>
+      <p><strong>Rechtliche Grundlagen:</strong> Die Verarbeitung erfolgt nach Maßgabe der DSGVO und des Telekommunikationsgesetzes</p>
     </section>
 
     <section>
@@ -53,9 +49,6 @@
       <h3>Art. 6 Abs. 1 lit. f (Berechtigtes Interesse)</h3>
       <p>Beispiele: Website-Sicherheit, Betrugsbekämpfung, Verbesserung. Mit Interessenabwägung.</p>
 
-      <div class="info-box legal-notice">
-        <p><strong>Besondere Kategorien:</strong> Für besondere Kategorien personenbezogener Daten (z.B. biometrische Daten, Gesundheitsdaten) gelten zusätzliche Anforderungen gemäß Artikel 9 DSGVO. Diese werden nur mit ausdrücklicher Einwilligung verarbeitet.</p>
-      </div>
     </section>
 
     <section>
@@ -68,12 +61,12 @@
 
       <h3>4.2 Zahlungsdaten</h3>
       <p><strong>Verarbeitete Daten:</strong> Rechnungs- und Lieferadresse, Zahlungsart, Transaktionsnummern</p>
-      <p><strong>Wichtig:</strong> Kreditkartendaten werden <strong>nicht auf unseren Servern gespeichert</strong>. Sie werden direkt von unseren Payment-Anbietern verarbeitet (Stripe, PayPal).</p>
+      <p><strong>Wichtig:</strong> Kreditkartendaten werden <strong>nicht auf unseren Servern gespeichert</strong>. Sie werden direkt von unseren Payment-Anbietern verarbeitet (PayPal).</p>
       <p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO</p>
 
       <h3>4.3 Upload- und Verifikationsdaten</h3>
       <p><strong>Verarbeitete Daten:</strong> Hochgeladene Dateien, Metadaten, Prüfprotokolle, Verifikationsergebnisse</p>
-      <p><strong>Speicherdauer:</strong> Während Verifikation max. 5 Werkstage, dann Archivierung bis max. 30 Tage, danach Löschung</p>
+      <p><strong>Speicherdauer:</strong> Während Verifikation bis zu 9 Tage, dann Archivierung bis 90 Tage, danach Löschung</p>
       <p><strong>Wichtig:</strong> Hochgeladene Dateien können sensible Daten enthalten (Ausweiskopien, Gesichtsfotos, Rechnungen). Sie sind verantwortlich dafür:</p>
       <ul>
         <li>Die erforderliche Rechtsgrundlage zu haben</li>
@@ -84,7 +77,7 @@
 
       <h3>4.4 Nutzungs- und Logdaten</h3>
       <p><strong>Verarbeitete Daten:</strong> IP-Adresse, Browser-Typ, Betriebssystem, besuchte Seiten, Fehler, Geräteidentifizierer</p>
-      <p><strong>Speicherdauer:</strong> max. 30 Tage</p>
+      <p><strong>Speicherdauer:</strong> 90 Tage</p>
       <p><strong>Zweck:</strong> Website-Betrieb, Sicherheit, Fehlerbehandlung</p>
       <p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. f DSGVO</p>
 
@@ -116,61 +109,40 @@
         <li><strong>SEPA-Überweisung:</strong> Bankverbindungen gemäß Kundendaten</li>
       </ul>
 
-      <h3>6.3 Rechnungsstellung und Steuerkompliance</h3>
+      <h3>6.3 Rechnungen</h3>
       <p><strong>Speicherdauer:</strong> 7 Jahre (gesetzliche Aufbewahrungsfrist nach österreichischem Unternehmensgesetzbuch – UGB)</p>
       <p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. c DSGVO</p>
     </section>
 
     <section>
-      <h2>7. Verifikations- und Prüfservices</h2>
+      <h2>7. Cookies und ähnliche Technologien</h2>
 
-      <h3>7.1 Upload und Speicherung</h3>
-      <p>Hochgeladene Dateien werden:</p>
-      <ul>
-        <li><strong>Temporär gespeichert</strong> für die Verarbeitungsdauer</li>
-        <li><strong>Analysiert und geprüft</strong> gemäß Verfahren</li>
-        <li><strong>Mit Prüfprotokollen versehen</strong> Metadaten, Public-Key</li>
-        <li><strong>Gemäß Speicherdauer gelöscht</strong> 30 Tage nach Verifikation</li>
-      </ul>
-      <p>Sie können die Löschung jederzeit früher anfordern.</p>
-
-      <h3>7.2 Automatisierte Verarbeitung und Profiling</h3>
-      <p>Unsere Verifikationsprozesse nutzen teilweise automatisierte Entscheidungen (optische Zeichenerkennung, maschinelles Lernen).</p>
-      <div class="info-box legal-notice">
-        <p><strong>Ihre Rechte (Art. 22 DSGVO):</strong> Sie haben das Recht, nicht einer ausschließlich auf automatisierter Verarbeitung beruhenden Entscheidung unterworfen zu werden. Sie können verlangen, dass eine natürliche Person unsere Verifikationsergebnisse überprüft. Kontaktieren Sie: <a href="mailto:hello@credocheck.example">hello@credocheck.example</a></p>
-      </div>
-    </section>
-
-    <section>
-      <h2>8. Cookies und ähnliche Technologien</h2>
-
-      <h3>8.1 Notwendige/Technische Cookies</h3>
+      <h3>7.1 Notwendige/Technische Cookies</h3>
       <p><strong>Zweck:</strong> Sitzungsverwaltung, Sicherheit, Navigation</p>
       <p><strong>Speicherdauer:</strong> Sitzungsdauer oder bis zu 1 Jahr</p>
       <p><strong>Einwilligung:</strong> Nicht erforderlich – technisch notwendig</p>
 
-      <h3>8.2 Präferenz-Cookies</h3>
+      <h3>7.2 Präferenz-Cookies</h3>
       <p><strong>Zweck:</strong> Benutzereinstellungen (Sprache, Anzeigeoptionen, Dunkelmodus)</p>
       <p><strong>Speicherdauer:</strong> Bis zu 1 Jahr</p>
       <p><strong>Einwilligung:</strong> Wird im Cookie-Banner abgefragt</p>
 
-      <h3>8.3 Analyse-Cookies</h3>
+      <h3>7.3 Analyse-Cookies</h3>
       <p><strong>Zweck:</strong> Anonyme Website-Analyse zur Verbesserung</p>
       <p><strong>Tools:</strong> Matomo </p>
       <p><strong>Speicherdauer:</strong> Bis zu 13 Monate</p>
       <p><strong>Datenschutzmaßnahmen:</strong> IP-Adressen werden pseudonymisiert/anonymisiert</p>
       <p><strong>Einwilligung:</strong> Wird im Cookie-Banner abgefragt</p>
 
-      <h3>8.4 Marketing-Cookies</h3>
+      <h3>7.4 Marketing-Cookies</h3>
       <p><strong>Zweck:</strong> Personalisierte Werbung, Cross-Site-Tracking, Retargeting</p>
       <p><strong>Tools:</strong> Google Ads</p>
       <p><strong>Speicherdauer:</strong> Bis zu 2 Jahre</p>
       <p><strong>Einwilligung:</strong> Wird im Cookie-Banner abgefragt</p>
 
-      <h3>8.5 Cookie-Verwaltung</h3>
+      <h3>7.5 Cookie-Verwaltung</h3>
       <p>Sie können Ihre Cookie-Einstellungen jederzeit verwalten:</p>
       <ul>
-        <li>Über unser Cookie-Management-Tool auf der Website</li>
         <li>Über Ihren Browser </li>
         <li>Browser-Erweiterungen</li>
         <li>Google Analytics Opt-OUT: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank">https://tools.google.com/dlpage/gaoptout</a></li>
@@ -178,23 +150,7 @@
     </section>
 
     <section>
-      <h2>9. Analyse-Tools und Tracking</h2>
-
-      <h3>9.1 Matomo</h3>
-      <p><strong>Anbieter:</strong> Selbstgehostete Instanz</p>
-      <p><strong>Zweck:</strong> Website-Nutzungsanalyse</p>
-      <p><strong>Speicherdauer:</strong> 12 Monate</p>
-      <p><strong>Datenschutz:</strong> IP-Adresse wird pseudonymisiert</p>
-
-      <h3>9.2 Google Analytics </h3>
-      <p><strong>Anbieter:</strong> Google LLC, USA</p>
-      <p><strong>Schutzmaßnahmen:</strong> IP-Anonymisierung, Auftragsverarbeitungsvertrag</p>
-      <p><strong>Speicherdauer:</strong> 14 Monate</p>
-      <p><strong>Opt-Out:</strong> <a href="https://policies.google.com/privacy/partners?hl=de" target="_blank">Google Datenschutz</a></p>
-    </section>
-
-    <section>
-      <h2>10. Empfänger und Auftragsverarbeiter</h2>
+      <h2>8. Empfänger und Auftragsverarbeiter</h2>
 
       <p>Ihre Daten können an folgende Empfänger weitergegeben werden:</p>
 
@@ -208,23 +164,22 @@
       <p>Mit allen Auftragsverarbeitern werden Verträge nach Artikel 28 DSGVO abgeschlossen:</p>
       <ul>
         <li><strong>Hosting-Provider:</strong> Serverbetrieb und Speicherung </li>
-        <li><strong>Payment-Provider:</strong> Stripe, PayPal </li>
-        <li><strong>E-Mail-Versand:</strong> Postmark, SendGrid</li>
+        <li><strong>Payment-Provider:</strong> PayPal </li>
+        <li><strong>E-Mail-Versand:</strong> Postmark </li>
         <li><strong>Analytics:</strong> Google, Matomo</li>
         <li><strong>CRM-Systeme:</strong> Kundenverwaltung </li>
       </ul>
 
       <h3>10.3 Weitergaben in Drittländer</h3>
-      <p>Falls Daten in Länder außerhalb der EU/des EWR übermittelt werden:</p>
-      <ul>
-        <li>Wir nutzen <strong>Standardvertragsklauseln (SCC)</strong> der EU-Kommission</li>
-        <li>Oder wir basieren auf einem <strong>Angemessenheitsbeschluss</strong></li>
-        <li>Oder wir haben Ihre <strong>ausdrückliche Einwilligung</strong></li>
-      </ul>
+      <p>
+        Falls Daten in Länder außerhalb der EU/des EWR übermittelt werden, nutzen wir sogenannte
+        Standardvertragsklauseln zur Übermittlung von personenbezogenen Daten in Drittländer
+      </p>
+
     </section>
 
     <section>
-      <h2>11. Speicherdauer und Löschung</h2>
+      <h2>9. Speicherdauer und Löschung</h2>
       <p>Wir speichern Daten nur so lange wie erforderlich oder bis gesetzliche Aufbewahrungsfristen ablaufen:</p>
 
       <h3>Speicherfristen</h3>
@@ -243,7 +198,7 @@
     </section>
 
     <section>
-      <h2>12. Ihre Rechte als betroffene Person</h2>
+      <h2>10. Ihre Rechte als betroffene Person</h2>
 
       <h3>12.1 Auskunftsrecht (Art. 15 DSGVO)</h3>
       <p>Sie können erfahren, welche Daten wir speichern und wofür sie genutzt werden.</p>
@@ -282,7 +237,7 @@
     </section>
 
     <section>
-      <h2>13. Datenschutzverletzungen und Benachrichtigungspflicht</h2>
+      <h2>11. Datenschutzverletzungen und Benachrichtigungspflicht</h2>
 
       <h3>13.1 Unsere Verantwortung</h3>
       <p>Falls eine Sicherheitsverletzung Ihre Daten betrifft:</p>
@@ -301,7 +256,7 @@
     </section>
 
     <section>
-      <h2>14. Datensicherheit</h2>
+      <h2>12. Datensicherheit</h2>
 
       <h3>14.1 Technische Maßnahmen</h3>
       <ul>
@@ -326,14 +281,7 @@
     </section>
 
     <section>
-      <h2>15. Datenschutz für Kinder und Jugendliche</h2>
-      <p>Unsere Dienste richten sich <strong>nicht an Personen unter 16 Jahren</strong>.</p>
-      <p>Falls wir Daten von Personen unter 16 Jahren verarbeiten, ist dies an eine <strong>Einwilligung der Eltern/Erziehungsberechtigten</strong> gebunden.</p>
-      <p>Wenn Sie unter 16 Jahre alt sind, kontaktieren Sie uns bitte unter <a href="mailto:hello@credocheck.example">hello@credocheck.example</a>.</p>
-    </section>
-
-    <section>
-      <h2>16. Änderungen dieser Datenschutzerklärung</h2>
+      <h2>13. Änderungen dieser Datenschutzerklärung</h2>
       <p>Wir behalten uns vor, diese Datenschutzerklärung anzupassen, insbesondere wenn:</p>
       <ul>
         <li>Rechtliche Anforderungen sich ändern</li>
@@ -346,7 +294,7 @@
     </section>
 
     <section>
-      <h2>17. Verifikationsspezifische Hinweise</h2>
+      <h2>14. Verifikationsspezifische Hinweise</h2>
 
       <h3>17.1 Verifikation sensibler Daten</h3>
       <p>Da CredoCheck Verifikationsdienste erbringt, können hochgeladene Dateien <strong>sensible personenbezogene Daten</strong> enthalten:</p>
